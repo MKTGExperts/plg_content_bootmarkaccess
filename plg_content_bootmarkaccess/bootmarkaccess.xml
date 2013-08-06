@@ -20,7 +20,7 @@ license       GNU General Public License version 2 or later; see http://www.gnu.
 		<filename>index.html</filename>
 	</files>
 
-	<media destination="plg_system_bootmarkaccess" folder="media">
+	<media destination="plg_content_bootmarkaccess" folder="media">
 		<folder>img</folder>
 		<folder>css</folder>
 		<folder>js</folder>

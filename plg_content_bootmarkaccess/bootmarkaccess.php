@@ -57,13 +57,10 @@ class plgContentBootMarkAccess extends JPlugin {
 		$temp		= explode("{access_denied_message}", $chunck);
 		$output		= $temp[0];
 		$msg		= $temp[1];
-		$map		= strtolower($matches[1]);
-		// check if map exist
-		for ($i=1; $i<=6; $i++){
-			if ($map == strtolower($this->params->get("map$i"))) {
-				// check if user belong to group
-				if (in_array($this->params->get("group$i"), $groups)) return $output;
-			}
+		preg_match_all('/\d+/i', $matches[1], $gids);
+		// check f user belong to one of the groups
+		foreach ($gids[0] as $gid){
+			if (in_array($gid, $groups)) return $output;
 		}
 		// if set return access denied message
 		return $msg;

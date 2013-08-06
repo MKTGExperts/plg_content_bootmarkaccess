@@ -20,7 +20,7 @@ license       GNU General Public License version 2 or later; see http://www.gnu.
 		<filename>index.html</filename>
 	</files>
 
-	<media destination="plg_system_bootmarkaccess" folder="media">
+	<media destination="plg_content_bootmarkaccess" folder="media">
 		<folder>img</folder>
 		<folder>css</folder>
 		<folder>js</folder>
@@ -35,74 +35,7 @@ license       GNU General Public License version 2 or later; see http://www.gnu.
 					description="PLG_CONTENT_BOOTMARKACCESS_FIELD_PLUGIN_TAG_DESC"
 					label="PLG_CONTENT_BOOTMARKACCESS_FIELD_PLUGIN_TAG_LABEL"
 				/>
-				
-				<field name="spacerg1" type="spacer" label="" />
 
-				<field name="map1" type="text"
-					default="map1"
-					description="PLG_CONTENT_BOOTMARKACCESS_FIELD_MAPS_DESC"
-					label="PLG_CONTENT_BOOTMARKACCESS_FIELD_MAP_1_LABEL"
-				/>
-				
-				<field name="group1" type="usergroup" 
-					label="PLG_CONTENT_BOOTMARKACCESS_FIELD_GROUP_1_LABEL"
-					description="PLG_CONTENT_BOOTMARKACCESS_FIELD_GROUPS_DESC" />
-				<field name="spacerg2" type="spacer" label="" />
-
-				<field name="map2" type="text"
-					default="map2"
-					description="PLG_CONTENT_BOOTMARKACCESS_FIELD_MAPS_DESC"
-					label="PLG_CONTENT_BOOTMARKACCESS_FIELD_MAP_2_LABEL"
-				/>
-				
-				<field name="group2" type="usergroup" 
-					label="PLG_CONTENT_BOOTMARKACCESS_FIELD_GROUP_2_LABEL"
-					description="PLG_CONTENT_BOOTMARKACCESS_FIELD_GROUPS_DESC" />
-				<field name="spacerg3" type="spacer" label="" />
-
-				<field name="map3" type="text"
-					default="map3"
-					description="PLG_CONTENT_BOOTMARKACCESS_FIELD_MAPS_DESC"
-					label="PLG_CONTENT_BOOTMARKACCESS_FIELD_MAP_3_LABEL"
-				/>
-				
-				<field name="group3" type="usergroup" 
-					label="PLG_CONTENT_BOOTMARKACCESS_FIELD_GROUP_3_LABEL"
-					description="PLG_CONTENT_BOOTMARKACCESS_FIELD_GROUPS_DESC" />
-				<field name="spacerg4" type="spacer" label="" />
-
-				<field name="map4" type="text"
-					default="map4"
-					description="PLG_CONTENT_BOOTMARKACCESS_FIELD_MAPS_DESC"
-					label="PLG_CONTENT_BOOTMARKACCESS_FIELD_MAP_4_LABEL"
-				/>
-				
-				<field name="group4" type="usergroup" 
-					label="PLG_CONTENT_BOOTMARKACCESS_FIELD_GROUP_4_LABEL"
-					description="PLG_CONTENT_BOOTMARKACCESS_FIELD_GROUPS_DESC" />
-				<field name="spacerg5" type="spacer" label="" />
-
-				<field name="map5" type="text"
-					default="map5"
-					description="PLG_CONTENT_BOOTMARKACCESS_FIELD_MAPS_DESC"
-					label="PLG_CONTENT_BOOTMARKACCESS_FIELD_MAP_5_LABEL"
-				/>
-				
-				<field name="group5" type="usergroup" 
-					label="PLG_CONTENT_BOOTMARKACCESS_FIELD_GROUP_5_LABEL"
-					description="PLG_CONTENT_BOOTMARKACCESS_FIELD_GROUPS_DESC" />
-				<field name="spacerg6" type="spacer" label="" />
-
-				<field name="map6" type="text"
-					default="map6"
-					description="PLG_CONTENT_BOOTMARKACCESS_FIELD_MAPS_DESC"
-					label="PLG_CONTENT_BOOTMARKACCESS_FIELD_MAP_6_LABEL"
-				/>
-				
-				<field name="group6" type="usergroup" 
-					label="PLG_CONTENT_BOOTMARKACCESS_FIELD_GROUP_6_LABEL"
-					description="PLG_CONTENT_BOOTMARKACCESS_FIELD_GROUPS_DESC" />
-					
 				<!-- extra bottom space -->
 				<field name="spacer1" type="spacer" label="" />
 				<field name="spacer2" type="spacer" label="" />

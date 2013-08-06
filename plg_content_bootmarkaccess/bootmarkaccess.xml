@@ -21,7 +21,7 @@ license       GNU General Public License version 2 or later; see http://www.gnu.
 	</files>
 
 	<media destination="plg_content_bootmarkaccess" folder="media">
-		<folder>img</folder>
+		<folder>images</folder>
 		<folder>css</folder>
 		<folder>js</folder>
 		<filename>index.html</filename>

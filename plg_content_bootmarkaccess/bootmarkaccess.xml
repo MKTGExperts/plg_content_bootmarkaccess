@@ -2,6 +2,7 @@
 <!--
 copyright     Copyright (C) 2013 bootmark-framework.com. All rights reserved.
 license       GNU General Public License version 2 or later; see http://www.gnu.org/licenses/gpl-2.0.html
+credits       Check credits.html included in this package or repository for a full list of credits
 -->
 <extension version="3.0" type="plugin" group="content" method="upgrade">
 	<name>PLG_CONTENT_BOOTMARKACCESS</name>
@@ -18,14 +19,8 @@ license       GNU General Public License version 2 or later; see http://www.gnu.
 		<folder>language</folder>
 		<filename plugin="bootmarkaccess">bootmarkaccess.php</filename>
 		<filename>index.html</filename>
+		<filename>credits.html</filename>
 	</files>
-
-	<media destination="plg_content_bootmarkaccess" folder="media">
-		<folder>images</folder>
-		<folder>css</folder>
-		<folder>js</folder>
-		<filename>index.html</filename>
-	</media>
 
 	<config>
 		<fields name="params">
@@ -40,7 +35,6 @@ license       GNU General Public License version 2 or later; see http://www.gnu.
 				<field name="spacer1" type="spacer" label="" />
 				<field name="spacer2" type="spacer" label="" />
 				<field name="spacer3" type="spacer" label="" />
-				
 			</fieldset>
 		</fields>
 	</config>
